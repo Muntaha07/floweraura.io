@@ -1,0 +1,349 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#page1{
+  background-color: #43886F;
+height: 100vh;
+width: 100%;
+/* overflow: hidden; */
+position: relative;
+}
+#nav {
+  font-size: 0.79vw;
+  font-family: monospace;
+  text-transform: capitalize;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+#nav h1{
+  font-size: 2.5vw;
+    font-weight: 900;
+    background-image: url("./img/photo-1594505270395-a47b48ffbc74908.avif");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+a{
+  text-decoration: none;
+}
+#nav img {
+  height: 6vw;
+}
+#navpart2{
+
+  display: flex;
+  gap: 20px;
+
+}
+
+#text{
+
+  width: 50%;
+  text-transform: uppercase;
+  padding-top: 1.2vw;
+}
+#text h1{
+  padding: 1vw 0vw;
+  font-size: 7vw;
+  font-weight: 700;
+  color: rgba(238, 238, 176, 0.832);
+}
+
+#text h1:nth-child(1){
+text-align: left;
+padding-left: 40px;
+font-family: voyage;
+
+}
+#text h1:nth-child(2){
+  text-align: center;
+  font-family: voyage;
+}
+#text h1:nth-child(3){
+  text-align: right;
+  font-family: voyage;
+
+
+}
+#image1{
+
+  height: 30vw;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  border-radius: 5px;
+
+}
+#page2{
+  overflow: hidden;
+height: 100vh;
+width: 100%;
+background-color: #000;
+position: relative;
+}
+#imgcontainer{
+width: 100%;
+height: 100vh;
+background-color: #377060;
+}
+#image2{
+
+width: 40%;  
+height: 100vh;
+position: absolute;
+left: 50%;
+top: 0;
+}
+  #image3{
+
+    width: 40%;  
+    height: 100vh;
+    position: absolute;
+    right: 50%;
+bottom: 0;
+  }
+  #page2>h2{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    opacity:0;
+    scale:0;
+    text-align: center;
+    z-index: 9999;
+    font-size: 4.7vw;
+    color: #fff;
+  }
+
+#page3{
+height: 100vh;
+width: 100%;
+background-color: #9FBD96;
+
+}
+#para  h3 span{
+  font-size: 2.5vw;
+  font-weight: 200;
+  text-align: center;
+color: blanchedalmond;
+  -webkit-text-stroke:1px  #000;
+}
+#para {
+ 
+padding: 80px 0px ;
+
+ 
+}
+#para h3{
+
+  letter-spacing: 2px;
+  word-wrap: 2px;
+  font-size: 2.5vw;
+  font-weight: 200;
+  text-align: center;
+color: blanchedalmond;
+  -webkit-text-stroke:1px  #000;
+}
+#page4{
+  background-color: #112524;
+height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#page4 video{
+ opacity: 1;
+ height: 40vw;
+}
+
+#page5{
+
+  height: 100vh;
+  width: 100%; 
+  background-color: #E3EAE0; 
+}
+#text2{
+  position: relative;
+  padding-top: 60px;
+
+
+  padding-left: 40px;
+}
+.flowername h2{
+  /* color: #fff; */
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: manuka;
+  font-size: 5vw;
+  padding: 5px 40px;
+  border-bottom: 1px solid #000;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  cursor: pointer;
+}
+.flowername{
+  
+display: flex;
+align-items: center;
+justify-content: flex-start;
+    
+}
+.flowername img{
+  height: 5vw;
+  object-fit: cover;
+  object-position: center;
+ position: absolute;
+ opacity: 0;
+}
+#footer{
+opacity: 1;
+  width: 100%;
+  height: 50vh;
+  background-color: #43886F;
+
+color: black;
+padding-top: 10px;
+
+}
+#center{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0vw 10vw;
+}
+#one{
+
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+justify-content: center;
+  flex-direction: column;
+  /* gap: 1vw; */
+
+}
+#one h1 {
+ 
+  font-weight: 400;
+  font-family: voyage,cursive,serif;
+  font-size: 6vw;
+text-transform: uppercase;
+}
+#two{
+  padding-top: 8vw;
+  display: flex;
+  gap: 1vw;
+
+  flex-direction: column;
+
+}
+#two h3 a{
+font-weight: 300;
+font-family: gilroy;
+word-spacing:0.1vw;
+cursor: pointer;
+font-size: 1.5vw;
+  text-align: left;
+
+
+}
+
+#footer p{
+
+  letter-spacing: 0.1vw;
+  line-height: 7vw;
+  text-align: center;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  #nav {
+    
+    padding: 30px 50px;
+}
+
+#navpart2 {
+  font-size: 8px;
+  gap: 10px;
+}
+
+#text h1:nth-child(1) {
+  text-align: left;
+  padding-left: 40px;
+  font-family: voyage;
+  font-size: 11vw;
+  line-height: 27vw;
+  /* padding-top: 45px; */
+}
+
+#text h1:nth-child(2) {
+  text-align: center;
+  font-family: voyage;
+  font-size: 16vw;
+  line-height: 45vw;
+}
+
+element.style {
+  translate: none;
+  rotate: none;
+  scale: none;
+  opacity: 1;
+  transform: translate(0%, 0px);
+}
+#text h1:nth-child(3) {
+  text-align: right;
+  font-family: voyage;
+  font-size: 15vw;
+  line-height: 4;
+}
+#nav h1 {
+  font-size: 25px;
+  font-weight: 500;
+  
+  padding-right: 12px;
+}
+#para h3 {
+  letter-spacing: 1px;
+  word-wrap: 2px;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: blanchedalmond;
+  -webkit-text-stroke: 1px #000;
+}
+
+#one h1 {
+  font-weight: 900;
+  font-size: 5.2vw;
+}
+#two h3 {
+  font-weight: 300;
+  font-family: gilroy;
+  word-spacing: 0.1vw;
+  
+  text-align: left;
+  font-size: 4.5vw;
+  cursor: pointer;
+}
+#footer p {
+  padding-top: 17px;
+  letter-spacing: 0.1vw;
+  line-height: 7vw;
+  text-align: center;
+}
+
+}
